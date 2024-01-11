@@ -54,7 +54,7 @@ for (let key in shark) {
 }
 ```
 
-hasOwnProperty մեթոդի մասին առավել մանրամասն կարող եք նայել [այս հղումով։](https://github.com/h0vhann1syan/Armenian-JavaScript-Community/blob/master/Best%20Practices%20for%20Property%20Checking%20in%20JavaScript.md)
+hasOwnProperty մեթոդի մասին առավել մանրամասն կարող եք նայել [այս հղումով։](https://github.com/h0vhann1syan/Armenian-JavaScript-Community/blob/master/Publications/Best%20Practices%20for%20Property%20Checking%20in%20JavaScript.md)
 
 Այժմ եթե աշխատեցնենք կոդը, ապա կտեսնենք, որ _alert_ է լինում _shark_ օբյեկտի միայն «սեփական» հատկությունների անունները՝ _species և color_։
 

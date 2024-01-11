@@ -23,7 +23,7 @@ console.log(number) // 42
 
 Եվ այսպես առաջին օրինակում երկու տրամաբանական օպերատորներն էլ նույն կերպ են աշխատում, սակայն երկրորդ օրինակի մեջ նրանց վերադարձրած արժեքները տարբերվում են։ || օպերատորը վերադարձնում է առաջին _truthy_ արժեքը՝ _42_-ը, այն դեպքում երբ **??**-ը վերադարձնում է առաջին արժեքը, որը չի հանդիսանում _null_ կամ _undefined_, թեև այն կարող է նաև _falsy_ արժեք լինել, մեր օրինակում՝ _0_։
 
-_falsy_ արժեքների (_0, -0, 0n, NaN, "", null, undefined, false_) և տիպերի վերափոխման մասին առավել մանրամասն կարող եք կարդալ [այս հղումով](https://github.com/h0vhann1syan/Armenian-JavaScript-Community/blob/master/Understanding%20JavaScript's%20Loose%20Typing.md)։
+_falsy_ արժեքների (_0, -0, 0n, NaN, "", null, undefined, false_) և տիպերի վերափոխման մասին առավել մանրամասն կարող եք կարդալ [այս հղումով](https://github.com/h0vhann1syan/Armenian-JavaScript-Community/blob/master/Publications/Understanding%20JavaScript's%20Loose%20Typing.md)։
 
 Ինչպես և && (AND) և || (OR) տրամաբանական օպերատորների դեպքում էր՝ **??** (nullish coalescing) օպերատորը նույնպես կարող է օգտագործվել շղթայի մեջ, օրինակ՝
 

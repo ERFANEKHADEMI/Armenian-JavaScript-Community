@@ -1,4 +1,4 @@
-![Double-precision floating-point format](./images/float_to_integer.png)
+![Double-precision floating-point format](../images/float_to_integer.png)
 
 # Ինչպես մնացորդով թվերից ստանալ ամբողջ թիվ, և ինչ մեթոդներ կան ստուգելու արդյո՞ք թիվը ամբողջ է թե ոչ
 

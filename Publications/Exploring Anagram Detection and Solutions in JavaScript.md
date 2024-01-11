@@ -68,4 +68,4 @@ const isAnagram = (str1, str2) => {
 }
 ```
 
-_Map_ տվյալների կառուցվածքի մասին մանրամասն կարդացեք [այստեղ](https://github.com/h0vhann1syan/Armenian-JavaScript-Community/blob/master/Unraveling%20the%20Power%20of%20JavaScript's%20Map%20Data%20Structure.md)
+_Map_ տվյալների կառուցվածքի մասին մանրամասն կարդացեք [այստեղ](https://github.com/h0vhann1syan/Armenian-JavaScript-Community/blob/master/Publications/Unraveling%20the%20Power%20of%20JavaScript's%20Map%20Data%20Structure.md)

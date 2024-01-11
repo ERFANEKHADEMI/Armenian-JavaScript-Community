@@ -1,4 +1,4 @@
-![VS Code](./images//source_code_editor.jpg)
+![VS Code](../images//source_code_editor.jpg)
 
 # Ի՞նչ հիմնական տիպերի են բաժանվում աղբյուրային կոդի խմբագրիչները (Source-code editor): Այնուամենայնիվ ո՞ր խմբագրիչն է ամենահարմարը վեբ ծրագրավորման մեջ օգտագործելու համար:
 

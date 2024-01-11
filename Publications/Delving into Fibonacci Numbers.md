@@ -1,4 +1,4 @@
-![Leonardo Pisano](./images/Fibonacci.jpg)
+![Leonardo Pisano](../images/Fibonacci.jpg)
 
 # Խնդիր համար 4 - Գտնել Ֆիբոնաչչիի հաջորդականության n-երորդ թիվը։
 

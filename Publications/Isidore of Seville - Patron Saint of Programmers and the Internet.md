@@ -1,4 +1,4 @@
-![Isidore Monument](./images/st_isidore.jpg)
+![Isidore Monument](../images/st_isidore.jpg)
 
 _Լուսանկարում՝ Սուրբ Իսիդոր Սևիլյացու հուշարձանն է Իսպանիայի ազգային գրադարանի մուտքի մոտ՝ Մադրիդում_
 

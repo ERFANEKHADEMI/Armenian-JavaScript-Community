@@ -1,4 +1,4 @@
-![Brendan Eich](./images//BRENDAN_EICH.jpg)
+![Brendan Eich](../images//BRENDAN_EICH.jpg)
 
 # Brendan Eich - Popularity
 

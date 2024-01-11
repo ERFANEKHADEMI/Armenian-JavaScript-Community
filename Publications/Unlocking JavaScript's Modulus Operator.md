@@ -76,7 +76,7 @@ function reverseNum(n) {
 }
 ```
 
-Ամեն ինչ այնպես է ինչպես վերևի օրինակում, ուղղակի մնացորդից ազատվելու համար օգտագործում ենք ~ օպերատորը, ինչպես արդեն ասեցի, դրա մասին առանձին գրառում կա [հետևյալ հղումով](https://github.com/h0vhann1syan/Armenian-JavaScript-Community/blob/main/JavaScript's%20Numeric%20Nitty-Gritty.md)
+Ամեն ինչ այնպես է ինչպես վերևի օրինակում, ուղղակի մնացորդից ազատվելու համար օգտագործում ենք ~ օպերատորը, ինչպես արդեն ասեցի, դրա մասին առանձին գրառում կա [հետևյալ հղումով](https://github.com/h0vhann1syan/Armenian-JavaScript-Community/blob/master/Publications/JavaScript's%20Numeric%20Nitty-Gritty.md)
 
 Իսկ վերջում որպես բոնուս ներկայացնեմ շատ խառն ու անհասկանալի տարբերակ, որը թեև շատ հրաշալի աշխատում է, սակայն օգտագործել խորհուրդ չի տրվում &#128522;
 

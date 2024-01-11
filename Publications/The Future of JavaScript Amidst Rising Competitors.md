@@ -1,4 +1,4 @@
-![The Future of JS](./images/javascript.jpg)
+![The Future of JS](../images/javascript.jpg)
 
 # Արդյո՞ք JavaScript-ի մայրամուտը մոտ է: Համացանցում պարբերաբար տարածվում են սենսացիոն նորություններ` մրցակից նոր ծրագրավորման լեզուների և տեխնոլոգիաների ի հայտ գալու մասին: ClojureScript, Elm, Dart և իհարկե հեղափոխական WebAssembly: Արդյո՞ք հիմնավոր են այդ կանխատեսումները:
 

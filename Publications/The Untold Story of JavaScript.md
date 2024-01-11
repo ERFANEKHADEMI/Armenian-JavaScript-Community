@@ -1,4 +1,4 @@
-![JavaScript World](./images/JavaScript_World.jpg)
+![JavaScript World](../images/JavaScript_World.jpg)
 
 # JavaScript… Ամենաէլեգանտ և միաժամանակ ամենաթերագնահատված լեզուն
 

@@ -23,7 +23,7 @@ alert(user === visitor); // true
 
 Օբյեկտների խորը պատճենման անհրաժեշտություն համեմատաբար ավելի քիչ է լինում, իսկ լինելու դեպքում հիմնականում օգտագործվում են կողմնակի **JavaScript** գրադարաններ, օրինակ _lodash_ ֆունկցիոնալ գրադարանը, որի **_\_.cloneDeep(obj)_** մեթոդը հաջողությամբ լուծում է այդ խնդիրը։ _HTML Living Standard_-ի մեջ սկսած _2022_ թվականից ավելացվել է **_structuredClone_** մեթոդը, որը թույլ է տալիս խորը պատճենում կատարել։ Մեթոդին մանրամասն կարող եք ծանոթանալ [այստեղ](https://developer.mozilla.org/en-US/docs/Web/API/structuredClone): Նաև քանի-որ մեթոդը համեմատաբար նոր է, այն սպասարկվում է ոչ բոլոր դիտարկիչների կողմից: [Այստեղ](https://caniuse.com/?search=structuredClone) կարող եք ծանոթանալ թե որ դիտարկիչների որ տարբերակներն են մեթոդը սպասարկում։
 
-Օբյեկտների պարզագույն մակերեսային պատճենում կարելի է անել _for in_ ցիկլի օգնությամբ։ _for in_ ցիկլին նվիրված գրառմանս մեջ այդ մասին խոսվում է, կարող եք նայել [այս հղումով:](https://github.com/h0vhann1syan/Armenian-JavaScript-Community/blob/master/Iterating%20Over%20Object%20Properties%20with%20For...In.md)
+Օբյեկտների պարզագույն մակերեսային պատճենում կարելի է անել _for in_ ցիկլի օգնությամբ։ _for in_ ցիկլին նվիրված գրառմանս մեջ այդ մասին խոսվում է, կարող եք նայել [այս հղումով:](https://github.com/h0vhann1syan/Armenian-JavaScript-Community/blob/master/Publications/Iterating%20Over%20Object%20Properties%20with%20For...In.md)
 
 Հաջորդ տարածված տարբերակը՝ _Object.assign_ մեթոդի օգտագործումն է։ Այն ունի հետևյալ գրելաձևը՝
 
