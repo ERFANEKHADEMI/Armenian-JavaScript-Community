@@ -1,3 +1,5 @@
+![Jokes about Backend Programmers](../images/function_methods.jpg)
+
 # Ֆունկցիայի կանչը՝ հստակորեն նշված կոնտեքստով: call և apply մեթոդների տարբերությունը:
 
 Մենք գիտենք, որ [this-ը](https://github.com/h0vhann1syan/Armenian-JavaScript-Community/blob/master/Publications/The%20Dynamic%20Nature%20of%20'this'%20in%20JavaScript.md) դա հղում է դեպի օբյեկտ, որի կոնտեքստում կանչվել է մեթոդը՝ կետ օպերատորի միջոցով։ this-ը նաև հղում է դեպի նոր օբյեկտ, եթե այն ստեղծվել է new օպերատորի օգնությամբ՝ [կոնստրուկտոր ֆունկցիաների](https://github.com/h0vhann1syan/Armenian-JavaScript-Community/blob/master/Publications/Creating%20Objects%20with%20Constructor%20Functions.md) կանչի արդյունքում։ Մենք ծանոթացել ենք նաև ֆունկցիայի շաղկապմանը this-ի հետ՝ ֆունկցիաների [bind](https://github.com/h0vhann1syan/Armenian-JavaScript-Community/blob/master/Publications/Advanced%20Functional%20Patterns%20-%20Bind%20in%20Action.md) մեթոդի օգնությամբ։ Այսօր կխոսենք այն մասին, թե ի՞նչպես կանչել ֆունկցիաները՝ հստակորեն նշելով this-ը, այսինքն ի՞նչպես պարտադրել ֆունկցիաներին աշխատել՝ տալով մեր ուզած կոնտեքստը։
