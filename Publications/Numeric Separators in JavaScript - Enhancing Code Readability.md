@@ -18,5 +18,5 @@ const bad_number1 = _1000_000_000 // ReferenceError
 const bad_number2 = 5.1512_4578_ // SyntaxError
 ```
 
-Թվային տարանջատիչների օգտագործման հնարավորությունը ներկայումս աջակցվում է բոլոր ժամանակակից դիտարկիչների կողմից։ [](https://github.com/tc39/proposal-numeric-separator?fbclid=IwAR3JJ_-V6xKq0ty6iqjOXhW0MJgN7heNP6zAhRfcNCuv15u4iZ48_69txHk)
+Թվային տարանջատիչների օգտագործման հնարավորությունը ներկայումս աջակցվում է բոլոր ժամանակակից դիտարկիչների կողմից։ [Այս հղումով](https://github.com/tc39/proposal-numeric-separator?fbclid=IwAR3JJ_-V6xKq0ty6iqjOXhW0MJgN7heNP6zAhRfcNCuv15u4iZ48_69txHk)
 կարող եք ծանոթանալ թվային տարանջատիչների կիրառման տարբեր օրինակների, այդ թվում նաև թվերի երկուական, ութական և տասնվեցական հաշվարկման համակարգերում։
