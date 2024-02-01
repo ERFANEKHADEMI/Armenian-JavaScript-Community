@@ -24,4 +24,20 @@ const newText = text.replaceAll("Java", "JavaScript");
 console.log(newText); // "JavaScript is awesome. JavaScript is fun"
 ```
 
-Մեթոդն աջակցվում է ժամանակակից հանրաճանաչ վեբ դիտարկիչների կողմից (_Chrome, Firefox, Opera, Safari, Edge_), ինչպես նաև _node.js_-ի 15.0.0֊ից բարձր տարբերակներում։ Ի դեպ մեթոդը շատ ավելի ճկուն է, այն որպես առաջին արգումենտ կարող է ստանալ ոչ միայն String տիպի արժեք, այլ նաև RegExp, իսկ որպես երկրորդ արգումենտ՝ ֆունկցիա։ Մեթոդի նկարագրությանն ու հնարավորություններին ավելի մանրամասն կարելի է ծանոթանալ սկզբնաղբյուրում՝ [TC39 Proposal for String `replaceAll`](https://github.com/tc39/proposal-string-replaceall), [ECMAScript Specification for `String.prototype.replaceAll`](https://tc39.es/ecma262/multipage/text-processing.html#sec-string.prototype.replaceall)
+Մեթոդն աջակցվում է ժամանակակից հանրաճանաչ վեբ դիտարկիչների կողմից (_Chrome, Firefox, Opera, Safari, Edge_), ինչպես նաև _node.js_-ի 15.0.0֊ից բարձր տարբերակներում։ Ի դեպ մեթոդը շատ ավելի ճկուն է, այն որպես առաջին արգումենտ կարող է ստանալ ոչ միայն String տիպի արժեք, այլ նաև RegExp, իսկ որպես երկրորդ արգումենտ՝ ֆունկցիա։
+
+```
+const saying = "Debugging is twice as hard as writing the code in the first place. Therefore, if you write the code as cleverly as possible, you are, by definition, not smart enough to debug it.";
+
+const regex = /\b(Debugging|writing|cleverly)\b/g;
+
+const emphasize = (match) => {
+  return `**${match}**`;
+};
+
+const emphasizedSaying = saying.replace(regex, emphasize);
+
+console.log(emphasizedSaying);
+```
+
+Մեթոդի նկարագրությանն ու հնարավորություններին ավելի մանրամասն կարելի է ծանոթանալ սկզբնաղբյուրում՝ [TC39 Proposal for String `replaceAll`](https://github.com/tc39/proposal-string-replaceall), [ECMAScript Specification for `String.prototype.replaceAll`](https://tc39.es/ecma262/multipage/text-processing.html#sec-string.prototype.replaceall)
