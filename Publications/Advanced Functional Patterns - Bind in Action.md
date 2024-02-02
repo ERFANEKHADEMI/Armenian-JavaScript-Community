@@ -56,4 +56,4 @@ const sayHello = person.sayHello.bind(person);
 setTimeout(sayHello, 1000); // hello John Smith
 ```
 
-Ի դեպ bind մեթոդը JavaScript-ում առկա է դեռևս **ES5** ստանդարտի ժամանակներից և հասկանալի է բոլոր ժամանակակից ցանցային դիտարկիչներին (_նույնիսկ Internet Explorer-ին՝ սկսած 9-րդ տարբերակից_)։
+Ի դեպ _bind_ մեթոդը JavaScript-ում առկա է դեռևս **ES5** ստանդարտի ժամանակներից և հասկանալի է բոլոր ժամանակակից ցանցային դիտարկիչներին (_նույնիսկ Internet Explorer-ին՝ սկսած 9-րդ տարբերակից_)։ _bind_ մեթոդի մասին առավել մանրամասն կարող եք ծանոթանալ [այս հղումով](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_objects/Function/bind):
