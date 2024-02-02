@@ -64,5 +64,5 @@ console.log(sumOfArgs(7, 8, 5, 6, 9));        // Output: 35
 
 _rest_-ն ուղղակի պարամետրի անունն է, այդպես ընդունված է անվանել, բայց բնականաբար ոչ մի պարտադրանք չկա՝ կարելի է անվանել _args_ կամ ցանկացած այլ անունով, եթե իհարկե ռեզերվ արած բառ չէ։ Կա միայն մի պարտադրանք՝ _rest_ պարամետրը միշտ պետք է լինի վերջում, այն իր մեջ հավաքում է մնացյալ արգումենտները, և անիմաստ է նրանից հետո որևէ այլ պարամետր սահմանել։ Սակայն նրանից առաջ այլ պարամետրեր կարող են լինել։ _arguments_ փսևդոզանգվածի և _rest_ օպերատորի մասին կարող եք մանրամասն կարդալ այստեղ՝
 
-- Understand the traditional [`arguments` object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/arguments)
+- Understand the traditional [`arguments` object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/arguments).
 - Learn about [rest parameters](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/rest_parameters).
