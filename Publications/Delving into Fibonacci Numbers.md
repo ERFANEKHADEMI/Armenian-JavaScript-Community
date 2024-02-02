@@ -115,6 +115,28 @@ const fibonacci = n => {
 }
 ```
 
+Ֆիբոնաչչիի հերթական թիվը գեներացնելու համար կարելի է օգտագործել նաև գեներատոր ֆունկցիաներ։ Օրինակ՝
+
+```
+function* fibonacciGenerator() {
+  let a = 0, b = 1;
+
+  while (true) {
+    yield a;
+    [a, b] = [b, a + b];
+  }
+}
+```
+
+```
+const fib = fibonacciGenerator();
+console.log(fib.next().value); // 0
+console.log(fib.next().value); // 1
+console.log(fib.next().value); // 1
+console.log(fib.next().value); // 2
+console.log(fib.next().value); // 3
+```
+
 Իսկ վերջում որպես բոնուս ներկայացնեմ ևս մի տարբերակ, որը դժվար հասկանալի և դժվար ընթեռնելի է, թեև գերազանց աշխատում է։ Կատակով կարող եք օգտագործել, լուրջ՝ ոչ, ավելի հասկանալի և հեշտ ընթեռնելի տարբերակներ կան &#x1F600;
 
 ```
