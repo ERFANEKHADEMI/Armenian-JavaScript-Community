@@ -96,3 +96,5 @@ console.log(a.toString(2)) // "1110011"
 ```
 456..toString(2) // "111001000"
 ```
+
+Հաշվարկման համակարգերի մասին շատ մանրամասն կարող եք կարդալ [այս հոդվածում](https://www.encyclopedia.com/social-sciences-and-law/economics-business-and-labor/businesses-and-occupations/numeration-systems)։
