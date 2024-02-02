@@ -25,5 +25,13 @@ _map_ մեթոդի վերադարձրած զանգվածի վրա էլ միան�
 Կա նաև regular expression-ով տվյալ խնդրի լուծման կարճ տարբերակ։
 
 ```
-const capitalize = str => str.replace(/\b./g, x => x.toUpperCase())
+const capitalize1 = str => str.replace(/\b./g, x => x.toUpperCase())
+```
+
+```
+const capitalize2 = str => str.replace(/\b\w/g, char => char.toUpperCase());
+```
+
+```
+const capitalize3 = str => str.replace(/(?:^|\s)\w/g, char => char.toUpperCase());
 ```
