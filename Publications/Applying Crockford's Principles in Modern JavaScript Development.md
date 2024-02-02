@@ -19,4 +19,4 @@ Object.is( 0, -0 ) // false
 
 Ես խորհուրդ չեմ տալիս երբևէ փորձել որևէ բան բաժանել _0-ի_ վրա։ Եվ ընդհանրապես խորհուրդ չեմ տալիս օգտագործել _Object.is_ մեթոդը»։
 
-Հետևյալ հղումներով կարող եք տեսնելԴուգլաս Քրոքֆորդի [github-ի էջը](https://github.com/douglascrockford) և [կայքը։](https://www.crockford.com/)
+Հետևյալ հղումներով կարող եք տեսնելԴուգլաս Քրոքֆորդի [github-ի էջը](https://github.com/douglascrockford) և [կայքը](https://www.crockford.com/): [Այս հղումով](https://www.youtube.com/watch?v=R2idkNdKqpQ) էլ՝ լեկցիա այն մասին, թե ինչպիսին պետք է լինեն նոր սերնդի ծրագրավորման լեզուները։
