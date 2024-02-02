@@ -38,4 +38,9 @@ const toRawType = value => Object.prototype.toString.call(value).slice(8, -1);
 toRawType([1,2,3]); // "Array"
 toRawType({color: "red"}) // "Object"
 toRawType(123) // "Number"
+toRawType('Hello, World!'); // "String"
+toRawType(true); // "Boolean"
+toRawType(function() {}); // "Function"
+toRawType(null); // "Null"
+toRawType(undefined); // "Undefined"
 ```
