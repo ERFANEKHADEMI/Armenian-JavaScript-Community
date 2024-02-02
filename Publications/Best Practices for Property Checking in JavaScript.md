@@ -107,4 +107,4 @@ alert (car.hasOwnProperty("speed")); // true
 alert (car.hasOwnProperty("toString")); // false
 ```
 
-Ինչպես տեսնում ենք **_hasOwnProperty_** մեթոդը բոլորովին հաշվի չի առնում պրոտոտիպերի շղթայից ժառանգված հատկություններն ու մեթոդները։ Այս եղանակներից ո՞րն օգտագործել, կախված է խնդրի բնույթից, բայց մեծամասամբ ավելի անվտանգ է **_hasOwnProperty_** մեթոդը։
+Ինչպես տեսնում ենք **_hasOwnProperty_** մեթոդը բոլորովին հաշվի չի առնում պրոտոտիպերի շղթայից ժառանգված հատկություններն ու մեթոդները։ Այս եղանակներից ո՞րն օգտագործել, կախված է խնդրի բնույթից, բայց մեծամասամբ ավելի անվտանգ է **_hasOwnProperty_** մեթոդը։ **_hasOwnProperty_** մեթոդի մասին ավելի մանրամասն կարող եք ծանոթանալ [այս հղումով](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/hasOwnProperty)։
