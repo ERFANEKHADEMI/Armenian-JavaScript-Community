@@ -148,3 +148,8 @@ user2.sayHello(); // hello Jane
 ```
 
 Այժմ մենք կարող ենք ստեղծել տասնյակ, հարյուրավոր և հազարավոր միանման օբյեկտներ՝ _User_ կոնստրուկտոր ֆունկցիայի օգնությամբ, և այդ օբյեկտներն իրենց մեջ կունենան միանման հատկությունները՝ տարբեր արժեքներով։ Իսկ բոլորի համար ընդհանուր մեթոդը կլինի _User_ կոնստրուկտոր ֆունկցիայի պրոտոտիպում՝ ազատելով մեզ յուրաքանչյուր օբյեկտի մեջ դրա ունենալու անհրաժեշտությունից:
+
+constructor ֆունկցիաների և new օպերատորի մասին ավելի մանրամասն կարող եք դիտել հետևյալ հղումներով՝
+
+- [Constructor functions in JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/constructor)
+- [The `new` operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/new)
