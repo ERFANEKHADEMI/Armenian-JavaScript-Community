@@ -44,3 +44,20 @@ sleep for 3 seconds
 continue
 
 Ֆունկցիան լավ է աշխատում, սակայն ունի նաև թերություն։ Այն ծրագրի կատարման հոսքը կանգնեցնում է ցիկլի աշխատանքի միջոցով և երաշխավորում է, որ ոչ մի այլ տիպի փոխազդեցություն ծրագրի հետ սկզբունքորեն հնարավոր չէ։ Եթե մեզ անհրաժեշտ լինի ծրագրի կատարման շատ ավելի մեծ ընդհատում՝ բացառված չէ, որ ծրագրի կատարումը կարող է ընդհանրապես խափանվել։
+
+Եվ ևս մի տարբերակ, այս անգամ օգտագործելով async await սինթաքսը։
+
+```
+async function sleep(milliseconds) {
+  return new Promise(resolve => setTimeout(resolve, milliseconds));
+}
+
+async function run() {
+  console.log('Starting...');
+  await sleep(2000); // Sleep for 2 seconds
+  console.log('Slept for 2 seconds');
+}
+
+run();
+
+```
